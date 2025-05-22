@@ -17,8 +17,8 @@ Thank you for considering contributing to this Thompson Sampling project! Follow
 2. **Clone your fork**
 
 ```bash
-git clone https://github.com/your-username/thompson-sampling-ads.git
-cd thompson-sampling-ads
+git clone https://github.com/MaddyRizvi/Thompson-Sampling.git
+cd Thompson-Sampling
 ```
 
 3. **Create a new branch**
