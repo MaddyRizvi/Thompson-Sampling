@@ -78,10 +78,10 @@ python thompson_sampling.py
 Histogram of Ads Selection
 Thompson Sampling tends to focus faster on the best-performing ads by modeling uncertainty through probability distributions (Beta distribution), leading to smarter exploration.
 
-Total Reward (Clicks)
+✅ Total Reward (Clicks)
 In simulations with both 10,000 and 500 users, Thompson Sampling consistently delivers a higher cumulative reward (more ad clicks) than UCB. This is because it uses a probabilistic approach to estimate the potential payoff of each ad, rather than relying solely on deterministic upper bounds.
 
-Fast Adaptation with Small Data
+✅ Fast Adaptation with Small Data
 With only 500 rounds, UCB struggles to gather enough data to make confident decisions and tends to over-explore or under-exploit.
 In contrast, Thompson Sampling adapts faster, making it far more efficient in environments with limited data or early-stage learning.
 
